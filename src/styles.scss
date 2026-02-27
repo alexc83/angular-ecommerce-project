@@ -68,6 +68,8 @@ body {
 
 .elevated {
   box-shadow: var(--mat-sys-level2);
+  position: relative;
+  z-index: 10;
 }
 
 button[matButton] {
@@ -166,7 +168,6 @@ mat-sidenav {
         active-indicator-color: var(--mat-sys-primary),
         active-indicator-shape: 6px,
         list-item-one-line-container-height: 40px,
-        list-item-label-text-color: red,
       )
   );
 }

@@ -1,18 +1,29 @@
-<div class="bg-gray-100 p-6 h-full">
-  <h1 class="text-2xl font-bold text-gray-900 mb-6">
-    {{ category() }}
-  </h1>
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened="true">
+    <div class="p-6">
+      <h2 class="text-lg text-gray-900">Categories</h2>
+      <mat-nav-list>
+        @for (cat of categories(); track $index) {
+          <mat-list-item [activated]="cat === category()" class="my-2" [routerLink]="['/products', cat]">
+            <span matListItemTitle class="font-medium" [class]="cat === category() ? '!text-white' : null">
+              {{ cat | titlecase }}
+            </span>
+          </mat-list-item>
+        }
+      </mat-nav-list>
+    </div>
+  </mat-sidenav>
 
-  <div class="responsive-grid">
-    @for (product of products(); track product.id) {
-      <div class="bg-white cursor-pointer rounded-xl shadow-lg overflow-hidden flex flex-col h-full">
-        <img [src]="product.imageUrl" [alt]="product.description" class="w-full h-[300px] object-cover rounded-t-xl">
-        <div class="p-5 flex-flex-col flex-1">
-          <h3 class="text-lg font-semibold text-gray-900 mb-2 leading-tight">
-            {{ product.name }}
-          </h3>
-        </div>
-      </div>
-    }
-  </div>
-</div>
+  <mat-sidenav-content class="bg-gray-100 p-6 h-full">
+    <h1 class="text-2xl font-bold text-gray-900 mb-6">
+      {{ category() | titlecase }}
+    </h1>
+    <p class="text-base text-gray-600 mb-6">{{ filteredProducts().length}} products found</p>
+    <div class="responsive-grid">
+      @for (product of filteredProducts(); track product.id) {
+        <app-product-card [product]="product" />
+      }
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
