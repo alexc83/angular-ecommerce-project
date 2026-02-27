@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "name": "Minimalist Wireless Headphones",
+    "description": "Premium over-ear wireless headphones with active noise cancellation and 30-hour battery life. Designed for immersive audio and all-day comfort.",
+    "price": 199.99,
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.7,
+    "reviewCount": 1243,
+    "inStock": true,
+    "category": "Electronics"
+  },
+  {
+    "id": "2",
+    "name": "Smart Fitness Watch",
+    "description": "Track your heart rate, sleep, and daily activity with this sleek smart fitness watch. Water-resistant and compatible with iOS and Android.",
+    "price": 149.99,
+    "imageUrl": "https://images.unsplash.com/photo-1553545204-4f7d339aa06a?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 842,
+    "inStock": true,
+    "category": "Electronics"
+  },
+  {
+    "id": "3",
+    "name": "Ergonomic Office Chair",
+    "description": "Comfortable ergonomic chair with lumbar support, adjustable height, and breathable mesh backing. Perfect for long work-from-home sessions.",
+    "price": 289.0,
+    "imageUrl": "https://images.unsplash.com/photo-1688578735427-994ecdea3ea4?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 512,
+    "inStock": true,
+    "category": "Furniture"
+  },
+  {
+    "id": "4",
+    "name": "Modern Wooden Desk",
+    "description": "Spacious wooden desk with a minimalist design and sturdy steel legs. Ideal for home office setups or creative workspaces.",
+    "price": 399.99,
+    "imageUrl": "https://images.unsplash.com/photo-1760278041788-8e20a64e3fdd?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.4,
+    "reviewCount": 278,
+    "inStock": false,
+    "category": "Furniture"
+  },
+  {
+    "id": "5",
+    "name": "Professional DSLR Camera",
+    "description": "Capture stunning photos and 4K video with this professional-grade DSLR camera featuring interchangeable lenses and fast autofocus.",
+    "price": 899.99,
+    "imageUrl": "https://images.unsplash.com/photo-1751107996077-aee030806ca5?q=80&w=2077&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.8,
+    "reviewCount": 964,
+    "inStock": true,
+    "category": "Electronics"
+  },
+  {
+    "id": "6",
+    "name": "Leather Crossbody Bag",
+    "description": "Stylish genuine leather crossbody bag with adjustable strap, multiple compartments, and secure zip closure.",
+    "price": 129.5,
+    "imageUrl": "https://images.unsplash.com/photo-1760624294699-3d3156314391?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.3,
+    "reviewCount": 356,
+    "inStock": true,
+    "category": "Fashion"
+  },
+  {
+    "id": "7",
+    "name": "Men's Casual Sneakers",
+    "description": "Lightweight breathable sneakers designed for everyday comfort and modern style. Cushioned sole and flexible fit.",
+    "price": 89.99,
+    "imageUrl": "https://images.unsplash.com/photo-1597250738457-d1a4de8b4f5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.2,
+    "reviewCount": 1102,
+    "inStock": true,
+    "category": "Fashion"
+  },
+  {
+    "id": "8",
+    "name": "Ceramic Coffee Mug Set",
+    "description": "Set of four handcrafted ceramic mugs, perfect for coffee, tea, or hot chocolate. Microwave and dishwasher safe.",
+    "price": 39.99,
+    "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 198,
+    "inStock": true,
+    "category": "Home"
+  },
+  {
+    "id": "9",
+    "name": "Bluetooth Portable Speaker",
+    "description": "Compact waterproof Bluetooth speaker with deep bass, durable exterior, and up to 12 hours of playtime.",
+    "price": 79.99,
+    "imageUrl": "https://images.unsplash.com/photo-1674303324806-7018a739ed11?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.5,
+    "reviewCount": 677,
+    "inStock": false,
+    "category": "Electronics"
+  },
+  {
+    "id": "10",
+    "name": "Stainless Steel Water Bottle",
+    "description": "Insulated stainless steel bottle that keeps drinks cold for 24 hours or hot for 12 hours. Leak-proof lid included.",
+    "price": 29.99,
+    "imageUrl": "https://images.unsplash.com/photo-1544003484-3cd181d17917?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.7,
+    "reviewCount": 1432,
+    "inStock": true,
+    "category": "Home"
+  },
+  {
+    "id": "11",
+    "name": "Yoga Mat Pro Edition",
+    "description": "Non-slip eco-friendly yoga mat with extra cushioning for joint support and enhanced grip during workouts.",
+    "price": 59.99,
+    "imageUrl": "https://images.unsplash.com/photo-1646239646963-b0b9be56d6b5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.4,
+    "reviewCount": 389,
+    "inStock": true,
+    "category": "Fitness"
+  },
+  {
+    "id": "12",
+    "name": "Gaming Mechanical Keyboard",
+    "description": "RGB mechanical keyboard with customizable lighting and tactile switches for precision typing and competitive gaming.",
+    "price": 139.99,
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1664194583917-b0ba07c4ce2a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.6,
+    "reviewCount": 721,
+    "inStock": true,
+    "category": "Electronics"
+  }
+]
