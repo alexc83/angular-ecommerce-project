@@ -1,4 +1,4 @@
-import {Component, computed, input, signal} from '@angular/core';
+import {Component, computed, inject, input, signal} from '@angular/core';
 import {Product} from '../../models/product';
 import products from "../../data/products.json"
 import {ProductCard} from '../../components/product-card/product-card';
@@ -6,6 +6,7 @@ import {MatSidenav, MatSidenavContainer, MatSidenavContent} from '@angular/mater
 import {MatListItem, MatListItemTitle, MatNavList} from '@angular/material/list';
 import {RouterLink} from '@angular/router';
 import {TitleCasePipe, UpperCasePipe} from '@angular/common';
+import {EcommerceStore} from '../../ecommerce.store';
 
 @Component({
   selector: 'app-products-grid',
@@ -25,14 +26,13 @@ import {TitleCasePipe, UpperCasePipe} from '@angular/common';
 })
 export default class ProductsGrid {
 
-  category = input<string>("all");
+  category = input<string>('all');
+  categories = signal<string[]>(["all", "electronics", "fashion", "fitness", "furniture", "home"]);
 
-  products = signal<Product[]>(products);
+  constructor() {
+    this.store.setCategory(this.category);
+  }
 
-  filteredProducts = computed(() => {
-    if (this.category() === "all") return this.products();
-    return this.products().filter(p => p.category.toLowerCase() === this.category().toLowerCase());
-  });
+  store = inject(EcommerceStore);
 
-  categories = signal<string[]>(["all", "electronics", "fashion", "fitness", "furniture", "home"])
 }
