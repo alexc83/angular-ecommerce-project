@@ -1,23 +1,21 @@
-import {Component, computed, inject, input, output} from '@angular/core';
-import {Product} from '../../models/product';
-import {MatButton, MatIconButton} from '@angular/material/button';
+import {Component, computed, inject, input} from '@angular/core';
 import {MatIcon} from '@angular/material/icon';
+import {MatIconButton} from '@angular/material/button';
 import {EcommerceStore} from '../../ecommerce.store';
+import {Product} from '../../models/product';
 
 @Component({
-  selector: 'app-product-card',
+  selector: 'app-toggle-wishlist-button',
   imports: [
-    MatButton,
     MatIcon,
     MatIconButton
   ],
-  templateUrl: './product-card.html',
-  styleUrl: './product-card.scss',
+  templateUrl: './toggle-wishlist-button.html',
+  styleUrl: './toggle-wishlist-button.scss',
 })
-export class ProductCard {
-  product = input.required<Product>();
+export class ToggleWishlistButton {
 
-  addToCartClicked = output<Product>();
+  product = input.required<Product>()
 
   store = inject(EcommerceStore);
 

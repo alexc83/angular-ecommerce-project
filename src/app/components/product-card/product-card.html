@@ -1,6 +1,8 @@
-<div class="bg-white cursor-pointer rounded-xl shadow-lg overflow-hidden flex flex-col h-full">
+<div class="relative bg-white cursor-pointer rounded-xl shadow-lg overflow-hidden flex flex-col h-full">
   <!-- Card Image -->
   <img [src]="product().imageUrl" [alt]="product().description" class="w-full h-[300px] object-cover rounded-t-xl">
+
+  <ng-content />
 
   <!-- Card Content -->
   <div class="p-5 flex flex-col flex-1">
