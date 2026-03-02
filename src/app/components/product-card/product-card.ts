@@ -31,4 +31,6 @@ export class ProductCard {
       this.store.addToWishlist(product);
     }
   }
+
+
 }
